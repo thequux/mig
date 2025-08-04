@@ -2,6 +2,7 @@
 [package]
 name = "mig"
 version = "0.1.0"
+description = "Simple multi-database migrations, with async support"
 edition.workspace = true
 authors.workspace = true
 repository.workspace = true
