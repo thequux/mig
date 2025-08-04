@@ -8,6 +8,9 @@ repository.workspace = true
 license.workspace = true
 categories.workspace = true
 
+[package.metadata.docs.rs]
+all-features = true
+
 [features]
 rust-embed_8 = ["dep:rust-embed"]
 include_dir_07 = ["dep:include_dir"]
@@ -18,3 +21,4 @@ thiserror.workspace = true
 async-trait.workspace = true
 rust-embed = { version = "8", optional = true }
 include_dir = { version = "0.7", optional = true }
+
