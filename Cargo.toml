@@ -1,0 +1,17 @@
+[workspace]
+resolver = "3"
+members = ["mig", "mig-postgres"]
+
+[workspace.package]
+authors = [
+	"TQ Hirsch"
+]
+repository = "https://github.com/thequux/mig"
+license = "MIT"
+categories = ["database", "migration"]
+edition = "2024"
+
+[workspace.dependencies]
+async-trait = "0.1.88"
+thiserror = "2.0.12"
+anyhow = "1.0.98"

@@ -1,0 +1,19 @@
+[package]
+name = "mig"
+version = "0.1.0"
+edition.workspace = true
+authors.workspace = true
+repository.workspace = true
+license.workspace = true
+categories.workspace = true
+
+[features]
+rust-embed_8 = ["dep:rust-embed"]
+include_dir_07 = ["dep:include_dir"]
+
+[dependencies]
+anyhow.workspace = true
+thiserror.workspace = true
+async-trait.workspace = true
+rust-embed = { version = "8", optional = true }
+include_dir = { version = "0.7", optional = true }
