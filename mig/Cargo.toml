@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 [package]
 name = "mig"
 version = "0.1.0"

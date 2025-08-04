@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 use super::*;
 use std::ops::RangeBounds;
 use std::path::Path;

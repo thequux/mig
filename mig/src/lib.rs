@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 //! # Database Migrations
 //! Migrations will normally be loaded from SQL files, which contain normal SQL
 //! statements separated by migration directives.

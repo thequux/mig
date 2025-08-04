@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 use anyhow::anyhow;
 use std::borrow::Cow;
 use std::path::Path;
@@ -80,6 +81,8 @@ impl<'a> IncludeDirSource<'a> {
         }
     }
 }
+
+#[cfg(feature = "include_dir_07")]
 impl<'a> Iterator for IncludeDirSource<'a> {
     type Item = SourceItem<'a>;
     fn next(&mut self) -> Option<Self::Item> {

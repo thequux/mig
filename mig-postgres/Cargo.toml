@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 [package]
 name = "mig-postgres"
 version = "0.1.0"

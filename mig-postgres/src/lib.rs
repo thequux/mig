@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: MIT
 use std::ops::{Deref, DerefMut};
 use async_trait::async_trait;
 use mig::{AsyncDriver, AsyncExecutor, TransactionTerminatedError};
