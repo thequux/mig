@@ -9,7 +9,7 @@ authors = [
 ]
 repository = "https://github.com/thequux/mig"
 license = "MIT"
-categories = ["database", "migration"]
+categories = ["database"]
 edition = "2024"
 
 [workspace.dependencies]
